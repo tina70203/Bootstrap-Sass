@@ -1,0 +1,72 @@
+.process-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.process-line .process-dot {
+  height: 20px;
+  width: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  position: relative;
+  background-color: #cc9999;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.process-line:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: white;
+}
+
+.process-dot.done {
+  border-color: white;
+}
+
+.process-dot.done:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: block;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.process-dot.completed {
+  font-size: 14px;
+  color: #cc9999;
+  background-color: white;
+}
+
+.success .process-dot {
+  background-color: #940d2f;
+  border: 1px solid black;
+}
+
+.success:after {
+  background-color: black;
+}
+
+.success .process-dot.completed {
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=processline.css.map */

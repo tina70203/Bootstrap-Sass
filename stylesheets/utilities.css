@@ -1,0 +1,87 @@
+.header {
+  height: 496px;
+}
+
+.header .header-main-img {
+  height: 496px;
+}
+
+.bg-cover {
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-bottom {
+  background-position: 40% 60%;
+  background-size: cover;
+}
+
+input {
+  border-radius: 0;
+  border: none;
+}
+
+.negative-row-margin {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/**footer*/
+.signup {
+  font-size: 24px;
+  font-family: Palatino;
+}
+
+.email {
+  position: relative;
+}
+
+.email .moneyoff {
+  height: 56px;
+}
+
+.email .envelope-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 24px;
+}
+
+.email .right-btn {
+  border: none;
+  outline: none;
+}
+
+.email input {
+  text-indent: 50px;
+}
+
+.form-input {
+  outline: none;
+}
+
+.footer-icon {
+  font-size: 36px;
+}
+
+/**navbar***/
+.navq {
+  margin-right: -25px;
+}
+
+.navq .nav-img {
+  margin-left: -20px;
+}
+
+.navq .navbar-nav .active a {
+  font-weight: unset !important;
+}
+
+.navq .togbtn {
+  font-size: 18px;
+}
+
+.navq .cartbtn {
+  font-size: 18px;
+}
+/*# sourceMappingURL=utilities.css.map */

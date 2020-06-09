@@ -1,0 +1,44 @@
+/**card***/
+.card-main {
+  position: relative;
+}
+
+.card-main .card-img {
+  height: 315px;
+}
+
+.card-main .card-text {
+  font-size: 20px;
+}
+
+.card-main .onsale {
+  position: absolute;
+  left: 15px;
+  width: 106px;
+  padding: 5px;
+}
+
+.card-main .heart-icon {
+  position: absolute;
+  right: 29px;
+  top: 11px;
+  font-size: 22px;
+}
+
+.card-main .heart-icon .ui-checked-display {
+  cursor: pointer;
+}
+
+.card-main .heart-icon .ui-show,
+.card-main .heart-icon .ui-checkbox {
+  display: none;
+}
+
+.card-main .heart-icon .ui-checkbox:checked ~ .ui-show {
+  display: block;
+}
+
+.card-main .heart-icon .ui-checkbox:checked ~ .ui-hidden {
+  display: none;
+}
+/*# sourceMappingURL=card.css.map */

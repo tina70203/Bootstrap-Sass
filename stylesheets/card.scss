@@ -1,0 +1,37 @@
+/**card***/
+.card-main {
+  position: relative;
+  .card-img {
+    height: 315px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+  .onsale {
+    position: absolute;
+    left: 15px;
+    width: 106px;
+    padding: 5px;
+  }
+  .heart-icon {
+    position: absolute;
+    right: 29px;
+    top: 11px;
+    font-size: 22px;
+    .ui-checked-display {
+      cursor: pointer;
+    }
+    .ui-show,
+    .ui-checkbox {
+      display: none;
+    }
+    .ui-checkbox:checked {
+      & ~ .ui-show {
+        display: block;
+      }
+      & ~ .ui-hidden {
+        display: none;
+      }
+    }
+  }
+}

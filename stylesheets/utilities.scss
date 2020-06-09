@@ -1,0 +1,77 @@
+.header {
+  height: 496px;
+
+  .header-main-img {
+    height: 496px;
+  }
+}
+
+.bg-cover {
+  background-position: center center;
+  background-size: cover;
+}
+.bg-bottom {
+  background-position: 40% 60%;
+  background-size: cover;
+}
+input {
+  border-radius: 0;
+  border: none;
+}
+.negative-row-margin {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/**footer*/
+.signup {
+  font-size: 24px;
+  font-family: Palatino;
+}
+
+.email {
+  position: relative;
+  .moneyoff {
+    height: 56px;
+  }
+  .envelope-icon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 24px;
+  }
+
+  .right-btn {
+    border: none;
+    outline: none;
+  }
+}
+.email input {
+  text-indent: 50px;
+}
+.form-input {
+  outline: none;
+}
+
+.footer-icon {
+  font-size: 36px;
+}
+
+/**navbar***/
+.navq {
+  margin-right: -25px;
+  .nav-img {
+    margin-left: -20px;
+  }
+  .navbar-nav {
+    .active a {
+      font-weight: unset !important;
+    }
+  }
+  .togbtn {
+    font-size: 18px;
+  }
+  .cartbtn {
+    font-size: 18px;
+  }
+}

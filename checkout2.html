@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowever | online flower shop</title>
+    <link rel="stylesheet" href="stylesheets/all.css" />
+    <link rel="stylesheet" href="stylesheets/index.css" />
+    <!--fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/8c18389c6b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav
+        class="navbar navq navbar-expand-md navbar-light bg-white font-weight-bold"
+      >
+        <div class="container">
+          <button
+            class="navbar-toggler d-md-none d-flex align-items-center border-0 threeline"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="navbar-toggler-icon togbtn"></i>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="nav-img"
+              style="width: 200px;"
+              src="./stylesheets/img/QLogo.svg"
+              alt=""
+          /></a>
+          <a
+            class="nav-link d-flex align-items-center order-md-1 text-pure"
+            href="cart.html"
+            ><i class="fas fa-shopping-cart cartbtn"></i
+          ></a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="flower.html">Flowers</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="login.html">Log in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-white">
+          <div class="bg-primary p-4 negative-row-margin mx-lg-0 mx-md-4">
+            <div class="row">
+              <div class="col-6">
+                <h3 class="d-none d-md-block">Payment details</h3>
+                <h5 class="d-md-none mb-0">Payment details</h5>
+              </div>
+              <div class="col-6 d-flex align-items-center">
+                <div class="process-line w-100">
+                  <div class="process-dot fas fa-check completed"></div>
+                  <div class="process-dot done"></div>
+                  <div class="process-dot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col">
+                <p>Accept Payment Method</p>
+                <div class="method">
+                  <img src="https://img.icons8.com/color/48/000000/visa.png" />
+                  <img
+                    src="https://img.icons8.com/color/48/000000/paypal.png"
+                  />
+                  <img
+                    src="https://img.icons8.com/color/48/000000/apple-pay.png"
+                  />
+                  <img
+                    src="https://img.icons8.com/color/48/000000/mastercard-logo.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="inputCardNumber">Card Number</label>
+                <input
+                  type="text"
+                  class="form-control cardNumberinput"
+                  id="inputCardNumber"
+                  placeholder="0000-0000-0000-0000"
+                />
+                <span
+                  ><i class="far fa-credit-card card-icon text-pure"></i
+                ></span>
+              </div>
+              <label for="inputName">Card Holder</label>
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputName"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group col-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputName"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="inputDate">Expire Date</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputDate"
+                    placeholder="MM/YY"
+                  />
+                </div>
+                <div class="form-group col-6">
+                  <label for="inputSecurity">Security Number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputSecurity"
+                    placeholder="XXX"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="bg-primary negative-row-margin mx-lg-0 mx-md-4">
+            <a href="checkout3.html" class="btn btn-pure btn-lg btn-block"
+              >Next</a
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-3 mt-lg-0 mb-4 d-none d-lg-block text-pure">
+          <div class="border border-add mb-4">
+            <div class="bg-add mb-3">
+              <h3 class="text-center p-2">Order Summary</h3>
+            </div>
+            <div class="d-flex justify-content-between m-2">
+              <span>Items</span>
+              <span>180 GBP</span>
+            </div>
+            <div class="d-flex justify-content-between m-2">
+              <span>Delivery</span>
+              <span>Free</span>
+            </div>
+            <div class="d-flex justify-content-between font-weight-bold m-2">
+              <span>Total</span>
+              <span>180 GBP </span>
+            </div>
+          </div>
+          <div class="border border-add">
+            <div class="bg-add">
+              <h3 class="text-center p-2">Items</h3>
+            </div>
+            <div class="d-flex justify-content-start n m-2 align-items-center">
+              <img
+                style="width: 120px; height: 110px;"
+                src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_FD_F44A_00312653_NC_X_EC_90?wid=500&qlt=40&fmt=pjpeg"
+                class="img-fluid mr-3"
+                alt="Responsive image"
+              />
+              <span
+                >RainBow <br />
+                45 GBP</span
+              >
+            </div>
+            <div class="d-flex justify-content-start m-2 align-items-center">
+              <img
+                style="width: 120px; height: 110px;"
+                src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_FD_F44A_00620895_NC_X_EC_90?wid=500&qlt=40&fmt=pjpeg"
+                class="img-fluid mr-3"
+                alt="Responsive image"
+              />
+              <span
+                >Dear Ariel <br />
+                45 GBP</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="bg-primary mt-md-7">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-md-6 d-flex justify-content-center justify-content-md-start text-white"
+          >
+            <p class="signup mt-5 mb-0 mt-md-6 mb-md-6 d-md-block d-none">
+              Sign up to get 10% off, don't miss it
+            </p>
+            <p class="signup mt-5 mb-0 mt-md-6 mb-md-6 d-md-none">
+              Sign up to get 10% off
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="email d-flex justify-content-between mt-5 mb-5">
+              <label for="subscription">
+                <i class="text-danger fas fa-envelope envelope-icon"></i>
+              </label>
+              <input
+                type="email"
+                id="subscription"
+                class="form-input w-100 moneyoff"
+                placeholder="Get 10% Off For First Order"
+              />
+              <button
+                class="rounded-0 btn btn-danger btn-lg d-flex align-items-center right-btn"
+              >
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-add">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="mt-5">
+            <a class="navbar-brand" href="#"
+              ><img
+                style="width: 200px;"
+                src="./stylesheets/img/QLogo.svg"
+                alt=""
+            /></a>
+          </div>
+          <div class="mt-md-8 d-none d-md-block">
+            <img
+              style="width: 250px;"
+              src="./stylesheets/img/connection.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mt-6">
+            <p>020 1234 5678</p>
+            <p>qs-garden@email.com</p>
+            <p>3 Warmhouse, park road, London</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-12 col-md-6 footer-icon">
+            <a href=""><i class="fab fa-facebook-square mr-1"></i></a>
+            <a href=""><i class="fab fa-twitter-square mr-1"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+          </div>
+          <div class="col-12 col-md-6 mt-3 d-md-flex justify-content-end">
+            <p>
+              <i class="far fa-copyright"></i>2020 Q's garden Limited. All
+              rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

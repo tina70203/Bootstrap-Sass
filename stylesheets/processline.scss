@@ -1,0 +1,65 @@
+$primary: #cc9999;
+$pure: #940d2f;
+
+.process-line {
+  $circle-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  .process-dot {
+    height: $circle-size;
+    width: $circle-size;
+    border: 1px solid white;
+    border-radius: $circle-size;
+    position: relative;
+    background-color: $primary;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: white;
+  }
+}
+
+.process-dot.done {
+  border-color: white;
+  &:after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    display: block;
+    background-color: white;
+    border-radius: 50%;
+  }
+}
+
+.process-dot.completed {
+  font-size: 14px;
+  color: $primary;
+  background-color: white;
+}
+
+.success {
+  .process-dot {
+    background-color: $pure;
+    border: 1px solid black;
+  }
+  &:after {
+    background-color: black;
+  }
+
+  .process-dot.completed {
+    color: white;
+    background-color: black;
+  }
+}
