@@ -5138,8 +5138,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 27px;
+    padding-left: 27px;
   }
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
@@ -5186,8 +5186,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 27px;
+    padding-left: 27px;
   }
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl {
@@ -5234,8 +5234,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 27px;
+    padding-left: 27px;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
@@ -5282,8 +5282,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 27px;
+    padding-left: 27px;
   }
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl {
@@ -5330,8 +5330,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-expand .navbar-nav .nav-link {
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 27px;
+  padding-left: 27px;
 }
 
 .navbar-expand > .container,
@@ -12692,6 +12692,27 @@ a.text-pure:hover, a.text-pure:focus {
   }
 }
 
+.navq {
+  margin-right: -25px;
+}
+
+.navq .nav-img {
+  margin-left: -20px;
+}
+
+.navq .navbar-nav .active a {
+  font-weight: unset !important;
+}
+
+.navq .togbtn {
+  font-size: 18px;
+}
+
+.navq .cartbtn {
+  font-size: 17px;
+  padding-right: -10px;
+}
+
 /**index.html content***/
 .content {
   margin-top: -90px;
@@ -12842,7 +12863,7 @@ a.text-pure:hover, a.text-pure:focus {
 
 .card-icon {
   position: absolute;
-  top: 190px;
+  top: 180px;
   right: 60px;
 }
 
@@ -12856,7 +12877,7 @@ a.text-pure:hover, a.text-pure:focus {
 
 @media (max-width: 768px) {
   .navq {
-    margin-right: 0px;
+    margin-right: -10px !important;
   }
   .navq .nav-img {
     margin-left: 0px;
@@ -12969,26 +12990,6 @@ input {
 }
 
 /**navbar***/
-.navq {
-  margin-right: -25px;
-}
-
-.navq .nav-img {
-  margin-left: -20px;
-}
-
-.navq .navbar-nav .active a {
-  font-weight: unset !important;
-}
-
-.navq .togbtn {
-  font-size: 18px;
-}
-
-.navq .cartbtn {
-  font-size: 18px;
-}
-
 /**card***/
 .card-main {
   position: relative;
