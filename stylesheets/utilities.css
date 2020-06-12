@@ -63,26 +63,4 @@ input {
 .footer-icon {
   font-size: 36px;
 }
-
-/**navbar***/
-.navq {
-  margin-right: -25px;
-}
-
-.navq .nav-img {
-  margin-left: -20px;
-}
-
-.navq .navbar-nav .active a {
-  font-weight: unset !important;
-}
-
-.navq .togbtn {
-  font-size: 18px;
-}
-
-.navq .cartbtn {
-  font-size: 17px;
-  padding-right: -10px;
-}
 /*# sourceMappingURL=utilities.css.map */

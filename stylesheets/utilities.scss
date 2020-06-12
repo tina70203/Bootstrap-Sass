@@ -56,23 +56,3 @@ input {
 .footer-icon {
   font-size: 36px;
 }
-
-/**navbar***/
-.navq {
-  margin-right: -25px;
-  .nav-img {
-    margin-left: -20px;
-  }
-  .navbar-nav {
-    .active a {
-      font-weight: unset !important;
-    }
-  }
-  .togbtn {
-    font-size: 18px;
-  }
-  .cartbtn {
-    font-size: 17px;
-    padding-right: -10px;
-  }
-}

@@ -1,8 +1,6 @@
-$primary: #cc9999;
-$pure: #940d2f;
-$favourite: rgba(0, 134, 179, 0.9);
+$primary: rgb(165, 71, 71);
+$favourite: rgba(255, 241, 42, 0.9);
 $add: #ece4e2;
-
 /**index.html content***/
 .content {
   margin-top: -90px;
@@ -17,7 +15,7 @@ $add: #ece4e2;
     text-decoration: none;
     color: white;
     .content-cover {
-      background-color: rgba(241, 188, 185, 0.8);
+      background-color: rgba(165, 71, 71, 0.8);
       height: 256px;
       -webkit-transition: background-color 0.5s;
       transition: background-color 0.5s;
@@ -26,7 +24,7 @@ $add: #ece4e2;
     &:hover,
     &:focus {
       .content-cover {
-        background-color: rgba(0, 134, 179, 0.9);
+        background-color: rgba(238, 227, 76, 0.9);
       }
     }
   }
@@ -68,7 +66,7 @@ $add: #ece4e2;
 .content-box.active,
 .content-box:hover,
 .content-box:focus {
-  color: $primary;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
@@ -95,39 +93,28 @@ $add: #ece4e2;
 
 .flower-category {
   font-size: 20px;
-  a {
-    text-decoration: none;
+}
+
+/**navbar***/
+.navq {
+  margin-right: -25px;
+  .nav-img {
+    margin-left: -20px;
   }
-  .category-gp a.active {
-    background-color: $add;
-    border: none;
+  .navbar-nav {
+    .active a {
+      font-weight: unset !important;
+    }
+  }
+  .togbtn {
+    font-size: 18px;
+  }
+  .cartbtn {
+    font-size: 17px;
+    padding-right: -10px;
   }
 }
-
-/**login.html **/
-.signin {
-  position: relative;
-  input {
-    text-indent: 30px;
-    height: 50px;
-    padding-left: 15px;
-  }
-}
-
-.man-icon,
-.key-icon {
-  position: absolute;
-  left: 18px;
-  top: 16px;
-  border: none;
-}
-
-.quantity {
-  text-indent: 13px;
-}
-
 /**cart.html**/
-
 .cart-img {
   height: 110px;
   min-width: 110px;
@@ -136,7 +123,9 @@ $add: #ece4e2;
 .total {
   border-bottom: 1px solid rgb(204, 68, 68);
 }
-
+.cart-msg-title {
+  background-color: $primary;
+}
 /**checkout2.html**/
 .cardNumberinput {
   position: relative;
@@ -193,15 +182,17 @@ $add: #ece4e2;
   }
   .o-summary {
     background-color: white !important;
-    color: $pure !important;
+    color: $primary !important;
   }
 
   .card-icon {
     position: absolute;
-    top: 173px;
+    top: 163px;
     right: 35px;
   }
-
+  .cart-msg-title {
+    background-color: $add;
+  }
   .socialmedialog {
     border-right: 2px solid rgb(241, 241, 241);
   }

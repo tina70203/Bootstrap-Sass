@@ -1,5 +1,4 @@
-$primary: #cc9999;
-$pure: #940d2f;
+$primary: rgb(165, 71, 71);
 
 .process-line {
   $circle-size: 20px;
@@ -51,7 +50,7 @@ $pure: #940d2f;
 
 .success {
   .process-dot {
-    background-color: $pure;
+    background-color: $primary;
     border: 1px solid black;
   }
   &:after {

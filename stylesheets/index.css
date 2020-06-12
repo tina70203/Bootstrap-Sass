@@ -22,14 +22,14 @@
 }
 
 .content .content-box .content-cover {
-  background-color: rgba(241, 188, 185, 0.8);
+  background-color: rgba(165, 71, 71, 0.8);
   height: 256px;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
 
 .content .content-box.active .content-cover, .content .content-box:hover .content-cover, .content .content-box:focus .content-cover {
-  background-color: rgba(0, 134, 179, 0.9);
+  background-color: rgba(238, 227, 76, 0.9);
 }
 
 .content .four-sides {
@@ -69,7 +69,7 @@
 .content-box.active,
 .content-box:hover,
 .content-box:focus {
-  color: #cc9999;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
@@ -99,36 +99,26 @@
   font-size: 20px;
 }
 
-.flower-category a {
-  text-decoration: none;
+/**navbar***/
+.navq {
+  margin-right: -25px;
 }
 
-.flower-category .category-gp a.active {
-  background-color: #ece4e2;
-  border: none;
+.navq .nav-img {
+  margin-left: -20px;
 }
 
-/**login.html **/
-.signin {
-  position: relative;
+.navq .navbar-nav .active a {
+  font-weight: unset !important;
 }
 
-.signin input {
-  text-indent: 30px;
-  height: 50px;
-  padding-left: 15px;
+.navq .togbtn {
+  font-size: 18px;
 }
 
-.man-icon,
-.key-icon {
-  position: absolute;
-  left: 18px;
-  top: 16px;
-  border: none;
-}
-
-.quantity {
-  text-indent: 13px;
+.navq .cartbtn {
+  font-size: 17px;
+  padding-right: -10px;
 }
 
 /**cart.html**/
@@ -139,6 +129,10 @@
 
 .total {
   border-bottom: 1px solid #cc4444;
+}
+
+.cart-msg-title {
+  background-color: #a54747;
 }
 
 /**checkout2.html**/
@@ -190,18 +184,21 @@
     height: 80px;
   }
   .divider {
-    border-top: 1px solid #cc9999;
+    border-top: 1px solid #a54747;
     width: 100%;
     margin-top: 15px;
   }
   .o-summary {
     background-color: white !important;
-    color: #940d2f !important;
+    color: #a54747 !important;
   }
   .card-icon {
     position: absolute;
-    top: 173px;
+    top: 163px;
     right: 35px;
+  }
+  .cart-msg-title {
+    background-color: #ece4e2;
   }
   .socialmedialog {
     border-right: 2px solid #f1f1f1;
