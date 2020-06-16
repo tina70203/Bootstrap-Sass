@@ -14,7 +14,7 @@
   border: 1px solid white;
   border-radius: 20px;
   position: relative;
-  background-color: #a54747;
+  background-color: theme-color("primary");
   z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,12 +52,12 @@
 
 .process-dot.completed {
   font-size: 14px;
-  color: #a54747;
+  color: theme-color("primary");
   background-color: white;
 }
 
 .success .process-dot {
-  background-color: #a54747;
+  background-color: theme-color("primary");
   border: 1px solid black;
 }
 

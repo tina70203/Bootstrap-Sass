@@ -1,6 +1,3 @@
-$primary: rgb(165, 71, 71);
-$favourite: rgba(255, 241, 42, 0.9);
-$add: #ece4e2;
 /**index.html content***/
 .content {
   margin-top: -90px;
@@ -15,7 +12,7 @@ $add: #ece4e2;
     text-decoration: none;
     color: white;
     .content-cover {
-      background-color: rgba(165, 71, 71, 0.8);
+      background-color: theme-color("primary"), 0.8;
       height: 256px;
       -webkit-transition: background-color 0.5s;
       transition: background-color 0.5s;
@@ -24,7 +21,7 @@ $add: #ece4e2;
     &:hover,
     &:focus {
       .content-cover {
-        background-color: rgba(238, 227, 76, 0.9);
+        background-color: theme-color("favourite"), 0.9;
       }
     }
   }
@@ -124,7 +121,7 @@ $add: #ece4e2;
   border-bottom: 1px solid rgb(204, 68, 68);
 }
 .cart-msg-title {
-  background-color: $primary;
+  background-color: theme-color("primary");
 }
 /**checkout2.html**/
 .cardNumberinput {
@@ -176,13 +173,13 @@ $add: #ece4e2;
     height: 80px;
   }
   .divider {
-    border-top: 1px solid $primary;
+    border-top: 1px solid theme-color("primary");
     width: 100%;
     margin-top: 15px;
   }
   .o-summary {
     background-color: white !important;
-    color: $primary !important;
+    color: theme-color("primary") !important;
   }
 
   .card-icon {
@@ -191,7 +188,7 @@ $add: #ece4e2;
     right: 35px;
   }
   .cart-msg-title {
-    background-color: $add;
+    background-color: theme-color("add");
   }
   .socialmedialog {
     border-right: 2px solid rgb(241, 241, 241);

@@ -22,14 +22,14 @@
 }
 
 .content .content-box .content-cover {
-  background-color: rgba(165, 71, 71, 0.8);
+  background-color: theme-color("primary"), 0.8;
   height: 256px;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
 
 .content .content-box.active .content-cover, .content .content-box:hover .content-cover, .content .content-box:focus .content-cover {
-  background-color: rgba(238, 227, 76, 0.9);
+  background-color: theme-color("favourite"), 0.9;
 }
 
 .content .four-sides {
@@ -132,7 +132,7 @@
 }
 
 .cart-msg-title {
-  background-color: #a54747;
+  background-color: theme-color("primary");
 }
 
 /**checkout2.html**/
@@ -184,13 +184,13 @@
     height: 80px;
   }
   .divider {
-    border-top: 1px solid #a54747;
+    border-top: 1px solid theme-color("primary");
     width: 100%;
     margin-top: 15px;
   }
   .o-summary {
     background-color: white !important;
-    color: #a54747 !important;
+    color: theme-color("primary") !important;
   }
   .card-icon {
     position: absolute;
@@ -198,7 +198,7 @@
     right: 35px;
   }
   .cart-msg-title {
-    background-color: #ece4e2;
+    background-color: theme-color("add");
   }
   .socialmedialog {
     border-right: 2px solid #f1f1f1;
